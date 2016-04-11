@@ -10,6 +10,10 @@ public class SimpleCalculator {
 		result = x-y;
 	}
 	
+	public void div(int x, int y){
+		result = x/y;
+	}
+	
 	public int getResult(){
 		return result;
 	}

@@ -19,10 +19,18 @@ public class SimpleCalculatorTest {
 	}
 	
 	@Test
+
 	public void testMul() {
 		SimpleCalculator calc = new SimpleCalculator();
 		calc.mul(10, 20);
 		assertEquals(200,calc.getResult());
+	}
+	@Test
+	public void testDiv() {
+		SimpleCalculator calc = new SimpleCalculator();
+		calc.div(20, 10);
+		assertEquals(2,calc.getResult());
+
 	}
 
 }

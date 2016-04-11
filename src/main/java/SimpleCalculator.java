@@ -1,6 +1,6 @@
 
 public class SimpleCalculator {
-	private int result;
+	private int result = 0;
 
 	public void add(int x, int y) {
 		result = x + y;
@@ -18,6 +18,10 @@ public class SimpleCalculator {
 		
 	public void div(int x, int y){
 		result = x/y;
+	}
+	
+	public void inc(int x){
+		result += x;
 	}
 	
 	public int getResult(){
